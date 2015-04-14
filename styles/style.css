@@ -49,6 +49,10 @@ footer p {
 	text-align: center;
 }
 
+.active-menu {
+	color: grey;
+	background-color: hsla(200, 100%, 10%, .5);
+}
 
 .branding {
 	background: black;
