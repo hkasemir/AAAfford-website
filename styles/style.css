@@ -69,7 +69,20 @@ footer p {
 	padding-bottom: 20px;
 	margin-top: 45px;
 	margin-bottom: 0;
-	background-image: url("http://onebigphoto.com/uploads/2013/05/star-trails-above-rocky-mountains.jpg");
+	background-color: #9FCACF;
+	background-position: center;
+}
+
+.flexy {
+	display: flex;
+}
+
+.flexy iframe {
+	flex: 1;
+}
+
+.flexy p {
+	flex: 2;
 }
 
 .login-form {
@@ -80,7 +93,7 @@ footer p {
 }
 
 .main-menu a {
-	padding-top: 13px;
+	padding-top: 14px;
 	margin-top: -15px;
 	text-decoration: none;
 	color: white;
@@ -111,10 +124,20 @@ footer p {
 	margin: 0;
 	min-width: 775px;
 	height: 45px;
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	text-transform: uppercase;
 	text-align: center;
+}
+
+.vert-flex {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	background-color: grey;
+	box-shadow: 5px 5px 5px black;
+	margin-right: 20px;
+	margin-top: 20px;
 }
 
 #site-map a {
